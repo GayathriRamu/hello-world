@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>registeration form</title>
+</head>
+<body>
+	<h1>register form</h1>
+	<form>
+		<label> first name: <input type="text" name="firstname" plceholder="firstname"required></label>
+		<label> last name: <input type="text" name="lastname" plceholder="lastname"required></label>
+		<br>
+		<label> male <input type="radio" name="gender" value="male"></label>
+		<label> female <input type="radio" name="gender" value="female"></label>
+		<label> other <input type="radio" name="gender" value="other"></label>
+		<br>
+		<label> email: <input type="email" name="email" placeholer="your email.com" required ></label>
+		<br>
+		<label> password <input type="password" name="password" placeholder="enter your password" pattern="{5,10}" required title="please enter your pasword of length 5 to 10"></label>
+		<br>
+		<label for=""> birthday: </label>
+		<select id="birthday" name="month">
+			<option> month </option>
+			<option> jan </option>
+			<option> feb </option>
+			<option> march </option>
+			<option> april </option>
+			</select>
+		<select id="birthday" name="day">
+			<option> day </option>
+			<option> 1 </option>
+			<option> 2 </option>
+			<option> 3 </option>
+			<option> 4 </option>
+		</select>
+		<select ide="birthday" name="year">
+			<option> year </option>
+			<option> 2000 </option>
+			<option> 2001 </option>
+			<option> 2002 </option>
+			<option> 2003 </option>
+		</select>
+		<br>
+		<label> I agree to the terms and conditons  
+			<input type="checkbox" name="check"> </label>
+		<br>
+		<input type="submit" name="submit">
+	</form>
+</body>
+</html>
